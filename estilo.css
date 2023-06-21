@@ -1,0 +1,224 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+/* imagem */
+.imagem{
+    background-image: url("https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_large_assets/6b30e7f8206f/assets/img/home/hero_photos/atHzOuzY6J-kKdgKQnCDQQ.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    padding: 2px;
+}
+/*imagem*/
+
+
+/* container de cima */
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+/* container de cima */
+
+
+/* inputs */
+.barra_pesquisa{
+    display: flex;
+    align-items: center;
+    height: 32px;
+    width: 33%;
+    padding: 24px 0;   
+}
+
+.barra_pesquisa input:first-of-type{
+    width: 50%;
+    height: 100%;
+    padding: 8px 16px;
+    outline: none;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.barra_pesquisa input:first-of-type::after{
+    background-color: red;
+    bottom: 12px;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 12px;
+    width: 2px;
+}
+
+.barra_pesquisa input:last-of-type{
+    width: 50%;
+    height: 100%;
+    padding: 8px 16px;
+    outline: none;
+    border: none;
+}
+
+#search{
+    height: 48px;
+    padding: 0 12px;
+    border-radius: 0px 5px 5px 0;    
+    border: none;
+    cursor: pointer;
+    background-color: #e70700;
+}
+
+#search img {
+    width: 32px;
+    height: 32px;
+}
+/* inputs */
+
+
+
+/* texto da direita */
+.frases{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 12px;
+    gap: 12px;
+}
+
+.frases * {
+    padding: 8px 16px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: 600px;
+    transition: background 0.2s ease-in-out;
+}
+
+.frases p {
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.frases p:hover {
+    background-color: rgba(235, 235, 235, 0.5);
+}
+
+.frases button:first-of-type {
+    font-size: 20px;
+    min-height: 40px;
+    background-color: transparent;
+    border: 2px solid rgb(235, 235, 235);
+    border-radius: 3px;
+}
+
+.frases button:first-of-type:hover {
+    background-color: rgba(235, 235, 235, 0.6);
+}
+
+.frases button:last-of-type {
+    font-size: 20px;
+    min-height: 40px;
+    background-color: #e70700;
+    border: 2px solid #e70700;
+    border-radius: 3px;
+}
+.frases2{
+    display: flex;
+    gap: 20px;
+    color: white;
+    margin: 5px 4px  5px 100px;
+}
+.frases button:last-of-type:hover {
+    background-color: #e70700;
+}
+
+/* texto da direita */
+
+
+#h1{
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+    font-size: 25px;
+    color: white;
+}
+#h2{
+    display: flex;
+    justify-content: center;
+    padding: 8px 16px;
+    font-size: 20px;
+    margin: 24px 0;
+}
+
+
+/* posts */
+.container{
+    display: flex;
+}
+
+.blocos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px auto;
+    gap: 20px;
+}
+
+.containerBloco {
+    border: 1px solid #ebebeb;
+}
+
+.likeContaier {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 16px;
+}
+
+.likeContaier button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.likeContaier button:hover{
+    background-color: rgba(168, 164, 164, 0.5);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.divUser {
+    display: flex;
+    align-items: start;
+    padding: 24px 16px;
+}
+
+.divText {
+    display: flex;
+    flex-direction: column;
+    padding: 0 px;
+}
+
+.perfil img {
+    border-radius: 50%;
+}
+.lugar{
+    flex-direction: column;
+}
+
+.bloco1{ 
+    border-width: 1.5px;
+    border: 1px;
+}
+
+.bloco1 > img{
+    border-radius: 50%;
+}
+
+#foto1{
+    display: flex;
+    box-sizing: content-box;
+}
+/* posts */
