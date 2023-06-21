@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone yelp</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="img/logo.ico">
+</head>
+
+<body>
+    <div class="imagem">
+        <div class="flex-container">
+            <img id="logo"
+                src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/2d2a7a4342fc/assets/img/brand/logo_desktop_white.svg"
+                alt="">
+            <div class="barra_pesquisa">
+                <input type="text" placeholder="tacos,jantar baratos, Max's">
+                <input type="text" placeholder="Recife - PE" class="pesquisa2">
+                <button id="search">
+                    <img src="./img/lupa-arredondada.png" alt="lupa" />
+                </button>
+            </div>
+            <div class="frases">
+                <p>Para empresas</p>
+                <p>Escrever uma avaliação</p>
+                <button>Acessar</button>
+                <button>Cadastre-se</button>
+            </div>
+        </div>
+        <div class="frases2">
+            <p>Restaurantes</p>
+            <p>Serviços à Domicílio</p>
+            <p>Serviços de automóveis</p>
+            <p>Mais</p>
+        </div>
+        <div id="h1">
+            <h1>Conecte-se com grandes empresas locais</h1>
+        </div>
+    </div>
+
+    <div id="h2">
+        <h2>Atividades Recentes</h2>
+    </div>
+
+    <div class="container">
+        <div class="blocos">
+            <div class="containerBloco">
+                <div class="divUser">
+                    <div class="perfil">
+                        <img src="img/img.jpg" alt="">
+                    </div>
+                    <div class="divText">
+                        <h4>Adicionou 1 foto</h4>
+                        <a href="">Edward D.</a>
+                        <a href="">Bodega do Véio</a>
+                    </div>
+                </div>
+                <div id="foto1">
+                    <img src="https://s3-media0.fl.yelpcdn.com/bphoto/7gw3pF9ODCLnAljYxf2bsw/300s.jpg" alt="">
+                </div>
+                <div class="like">
+                    <path
+                        d="M22.35 9.13A3 3 0 0020 8h-3V4.28A3.28 3.28 0 0013.72 1a2 2 0 00-1.9 1.37L9.28 10H2a1 1 0 00-1 1v11a1 1 0 001 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 00-.6-2.54zM3 12h6v9H3v-9zm18-.77l-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 001 1h4a1 1 0 01.78.38 1 1 0 01.22.85z">
+                    </path>
+                </div>
+                <div class="likeContaier">
+                    <button>
+                        <svg width="24" height="24" class="like">
+                            <path
+                                d="M22.35 9.13A3 3 0 0020 8h-3V4.28A3.28 3.28 0 0013.72 1a2 2 0 00-1.9 1.37L9.28 10H2a1 1 0 00-1 1v11a1 1 0 001 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 00-.6-2.54zM3 12h6v9H3v-9zm18-.77l-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 001 1h4a1 1 0 01.78.38 1 1 0 01.22.85z">
+                            </path>
+                        </svg>
+                    </button>
+                    <p>7 Likes</p>
+                </div>
+            </div>
+            <div class="containerBloco">
+                <div class="divUser">
+                    <div class="perfil">
+                        <img src="img/img.jpg" alt="">
+                    </div>
+                    <div class="divText">
+                        <h4>Adicionou 1 foto</h4>
+                        <a href="">Edward D.</a>
+                        <a id="lugar" href="">Museu do Mamulengo</a>
+                    </div>
+                </div>
+                <div id="foto1">
+                    <img src="https://s3-media0.fl.yelpcdn.com/bphoto/7gw3pF9ODCLnAljYxf2bsw/300s.jpg" alt="">
+                </div>
+                <div class="likeContaier">
+                    <button>
+                        <svg width="24" height="24" class="like">
+                            <path
+                                d="M22.35 9.13A3 3 0 0020 8h-3V4.28A3.28 3.28 0 0013.72 1a2 2 0 00-1.9 1.37L9.28 10H2a1 1 0 00-1 1v11a1 1 0 001 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 00-.6-2.54zM3 12h6v9H3v-9zm18-.77l-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 001 1h4a1 1 0 01.78.38 1 1 0 01.22.85z">
+                            </path>
+                        </svg>
+                    </button>
+                    <p>10 Likes</p>
+                </div>
+            </div>
+            <div class="containerBloco">
+                <div class="divUser">
+                    <div class="perfil">
+                        <img src="img/img.jpg" alt="">
+                    </div>
+                    <div class="divText">
+                        <h4>Adicionou 1 foto</h4>
+                        <a href="">Edward D.</a>
+                        <a id="lugar" href="">Bodega do Véio</a>
+                    </div>
+                </div>
+                <div id="foto1">
+                    <img src="https://s3-media0.fl.yelpcdn.com/bphoto/_XH0ebxe547m8k05pbtL6g/300s.jpg" alt="">
+                </div>
+                <div class="likeContaier">
+                    <button>
+                        <svg width="24" height="24" class="like">
+                            <path
+                                d="M22.35 9.13A3 3 0 0020 8h-3V4.28A3.28 3.28 0 0013.72 1a2 2 0 00-1.9 1.37L9.28 10H2a1 1 0 00-1 1v11a1 1 0 001 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 00-.6-2.54zM3 12h6v9H3v-9zm18-.77l-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 001 1h4a1 1 0 01.78.38 1 1 0 01.22.85z">
+                            </path>
+                        </svg>
+                    </button>
+                    <p>12 Likes</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
